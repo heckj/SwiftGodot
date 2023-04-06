@@ -130,7 +130,7 @@ func doc (_ cdef: JGodotExtensionAPIClass, _ text: String?) {
     guard let text else { return }
     
     // Until it is done
-    return
+    //return
     
     func lookupConstant (_ txt: String.SubSequence) -> String {
         for ed in cdef.enums ?? [] {
